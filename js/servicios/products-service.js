@@ -1,11 +1,11 @@
-const productList = async () =>{
-    return fetch("https://api-alurageek-kappa.vercel.app/product")
+const productList = async () => {
+    return fetch("http://localhost:3000/products")
         .then((res) => res.json())
         .catch((err) => console.log(err));
 };
 
-const createProducts = async(name, price, img) => {
-    return fetch("https://api-alurageek-kappa.vercel.app/product", {
+const createProducts = async (name, price, img) => {
+    return fetch("http://localhost:3000/products", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -20,17 +20,17 @@ const createProducts = async(name, price, img) => {
         .catch((err) => console.log(err));
 };
 const deleteProduct = async (id) => {
-    return fetch(`https://api-alurageek-kappa.vercel.app/product${id}`, {
+    return fetch(`http://localhost:3000/products/${id}`, {
         method: "DELETE",
-        headers:{
+        headers: {
             "Content-Type": "application/json",
         }
-})
-    .then((res) => res.json())
-    .catch((err) => console.log(err));
+    })
+        .then((res) => res.json())
+        .catch((err) => console.log(err));
 
 };
 
-export const servicesProduct ={
+export const servicesProduct = {
     productList, createProducts, deleteProduct
 }

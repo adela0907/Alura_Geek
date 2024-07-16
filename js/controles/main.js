@@ -49,5 +49,16 @@ const render = async () => {
         console.error();
     }
 
-}
+};
+
+form.addEventListener("submit", (event)=>{
+    event.preventDefault();
+
+    const name = document.querySelector("[data-name]").value;
+    const price = document.querySelector("[data-price]").value;
+    const img = document.querySelector("[data-img]").value;
+
+    
+    servicesProducts.createProducts(name, price, img).then((res)=> console.log(res)).catch((err)=> console.log)
+})
 render();
