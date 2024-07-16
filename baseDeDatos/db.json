@@ -1,0 +1,44 @@
+{
+    "product": [
+        {
+            "img": "https://p.globalsources.com/IMAGES/PDT/B1194018804/Tazas-de-ceramica.jpg",
+            "name": "Taza",
+            "price": "$30.00",
+            "Description": "Taza con relieve",
+            "category": "Decoracion",
+            "id": 1
+        },
+        {
+            "img": "https://m.media-amazon.com/images/I/71Hirfo0lqL.jpg",
+            "name": "Centro de mesa",
+            "price": "$60.00",
+            "Description": "Centro de mesa de ceramica",
+            "category": "Decoracion",
+            "id": 2
+        },
+        {
+            "img": "https://i.ebayimg.com/images/g/TuYAAOSweaFl6o48/s-l1600.webp",
+            "name": "Jarrones",
+            "price": "$100.00",
+            "Description": "Jarrones de madera",
+            "category": "Decoracion",
+            "id": 3
+        },
+        {
+            "img": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/96e20b5f-f97e-4f84-bcb6-e684a377a5ca.4a6bed099306d2692ef81738f7063dea.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "name": "Jarron moño",
+            "price": "$100.00",
+            "Description": "Jarron de cerámica rosa",
+            "category": "Decoracion",
+            "id": 4
+        },
+        {
+            "img": "https://ae01.alicdn.com/kf/S105fa696904d42a984c94f3143a4b0988/Jarr-n-de-cer-mica-para-decoraci-n-del-hogar-florero-de-l-nea-Vertical-elegante.jpg",
+            "name": "Juego de jarrones",
+            "price": "$450.00",
+            "Description": "Juego de dos piezas de cerámica",
+            "category": "Decoracion",
+            "id": 5
+        }
+    ]
+}

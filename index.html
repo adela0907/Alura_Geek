@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="" alt="">
+        <h2>Alura Geek</h2>
+        <nav></nav>
+    </header>
+    <main class="main_container">
+        <section class="section-productos">
+            <h1>Mis Productos</h1>
+            <div data-producto class="productos_container">
+                
+            </div>
+        </section>
+        <section class="section-formulario">
+            <h1>Agregar Productos:</h1>
+            <form class="form_container" data-form>
+                <input data-nombre placeholder="nombre" type="text" required>
+                <input data-precio placeholder="precio" type="text" required>
+                <input data-imagen placeholder="imagen" type="text" required>
+
+                <div class="button_container">
+                    <button type="submit" class="button_submit" id="button_submit">enviar</button>
+                    <button type="reset" class="button_reset" id="button_reset">limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer_container">
+
+    </footer>
+    <script type="module" src="/js/controles/main.js"></script>
+</body>
+</html>
